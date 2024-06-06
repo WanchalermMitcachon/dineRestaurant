@@ -180,9 +180,11 @@ function Family() {
         <h1 className="text-l font-bold leading-l tracking-l">
           Ready to make a reservation?
         </h1>
-        <button className="darkDefaultButton hover:darkHoverButton">
-          BOOK A TABLE
-        </button>
+        <Link to="/bookingpage">
+          <button className="darkDefaultButton hover:darkHoverButton">
+            BOOK A TABLE
+          </button>
+        </Link>
       </div>
     </>
   );
