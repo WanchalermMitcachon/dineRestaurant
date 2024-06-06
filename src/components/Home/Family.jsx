@@ -51,12 +51,12 @@ function Family() {
   return (
     <>
       <div className="mt-28 px-6 md:px-0 md:relative lg:flex lg:my-[10%] lg:px-[0rem] ">
-        <div className="lg:max-w-[1300px] lg:mx-auto lg:flex ">
+        <div className="lg:max-w-[1300px] lg:mx-auto lg:flex l">
           <img
             src={curveTopRight}
             className="hidden md:block md:absolute md:top-[-13%] md:left-0 md:w-[50%] md:h-[37.5%] "
           />
-          <div className="lg:max-w-[1100px] lg:mx-auto lg:flex  lg:items-center lg:justify-center">
+          <div className="lg:max-w-[1100px] lg:mx-auto lg:flex  lg:items-center lg:justify-center ">
             {data.map((item, idx) => {
               return (
                 <div className="lg:relative">
@@ -79,7 +79,7 @@ function Family() {
               );
             })}
 
-            <div className="space-y-8 pb-20  flex flex-col items-center lg:flex-col-reverse lg:items-start">
+            <div className="space-y-8 pb-20  flex flex-col items-center lg:flex-col-reverse lg:items-start lg:translate-x-16">
               {" "}
               <div
                 className="flex flex-col items-center justify-center  mt-14 space-y-4 md:flex-row md:items-center 
